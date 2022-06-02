@@ -48,9 +48,6 @@ Cloud Challenge Details
 
 <h3>1. Create an Elastic Beanstalk application.</h3>
 
-
-<h4>Create the Admin EC2 instance</h4> 
-
 Login into AWS and search/choose *Elastic Beanstalk*.
 
 In Elastic Beanstalk, click *Create Application*.
