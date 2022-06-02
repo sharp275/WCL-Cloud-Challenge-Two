@@ -15,7 +15,7 @@ WhizLabs is running a cloud challenge between May and July 2022.  The challenge 
 ---
 <h3>From Whizlabs</h3>
 
-[Cloud Challenge Details](inst.png)
+Cloud Challenge Details
 
 >In this lab challenge, your AWS Elastic Beanstalk, Amazon RDS MySQL and AWS EC2 skills are put to the test. You'll be given a requirement and you have to reach it using your knowledge of Amazon Elastic Beanstalk and other AWS services. The Lab Challenge helps you understand the real-time scenarios.\
 >A company XYZ is deploying a new web application. As a part of the infrastructure, they need a database for their testing environment. Now your challenge is to deploy and manage a simple Java application in the AWS cloud and will add a new database using Beanstalk Environment Configuration. 
