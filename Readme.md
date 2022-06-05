@@ -56,21 +56,34 @@ In Elastic Beanstalk, click *Create Application*.
   <img width="800" src="create application.jpg">
 </p>
 
+In **Create a web app**, enter an application name.  For **Platform**, choose *Java*.  
+Under **Application code**, check *Sample application*. Click *Create application*.
+
 <p align="center">
   <img width="800" src="create web app.jpg">
 </p>
+
+Under **Database**, clich *Edit*.
 
 <p align="center">
   <img width="800" src="create application 2.jpg">
 </p>
 
+In **Database settings**, set **Engine** to *mysql*, **Engine version** to *5.7.22*, **Instance class** to *db.t2.micro*, and **Storage** to *5*.
+
+Set a **Username** and **Password**. Choose *Low (one AZ)* for **Availability** and *Delete* for **Database retention policy**.  Click *Save*.
+
 <p align="center">
   <img width="800" src="add database.jpg">
 </p>
 
+Click *Create app*.
+
 <p align="center">
   <img width="800" src="create application 3.jpg">
 </p>
+
+Wait for the application to be created.
 
 <p align="center">
   <img width="800" src="wait 1.jpg">
@@ -80,21 +93,36 @@ In Elastic Beanstalk, click *Create Application*.
   <img width="800" src="success.jpg">
 </p>
 
+Navigate to **VPC** > **Security groups**.
+
+Click on the security group associated with the RDS instance.
+
 <p align="center">
   <img width="800" src="security group.jpg">
 </p>
+
+Click *Edit inbound rules*.
 
 <p align="center">
   <img width="800" src="security group 2.jpg">
 </p>
 
+Click *Add rule*.
+
 <p align="center">
   <img width="800" src="edit inbound rules 1.jpg">
 </p>
 
+Select *MYSQL/Aurora* and *Anywhere*.
+
+Click *Save rules*.
+
 <p align="center">
   <img width="800" src="edit inbound rules.jpg">
 </p>
+
+The lab is complete.
+
 
 <p align="center">
   <img width="800" src="validation.jpg">
